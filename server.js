@@ -6,7 +6,7 @@ const staticPath = path.join(__dirname, "/public");
 
 app.use(express.static(staticPath));
 app.get("/", (req, res) => {
-    res.render("./public");
+    res.render("staticPath");
 });
 
 app.listen(PORT, (err) => {
