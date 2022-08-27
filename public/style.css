@@ -1,0 +1,19 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+} */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:880px) {
+    .row{
+        flex-direction: column;
+        padding: auto 0;
+    }
+}
